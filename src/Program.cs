@@ -28,7 +28,7 @@ namespace SqlAmoz
             {
                 case "select": frm = new SelectForm(); break;
                 case "where": frm = new WhereForm(); break;
-                //case "order": frm = new OrderForm(); break;
+                case "order": frm = new OrderForm(); break;
                 //case "from": frm = new FromForm(); break;
                 //case "query": frm = new QueryForm(); break;
             }
