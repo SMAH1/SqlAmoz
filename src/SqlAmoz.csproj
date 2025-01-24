@@ -76,6 +76,12 @@
     <Compile Include="DB\WaitForm.Designer.cs">
       <DependentUpon>WaitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="QueryForms\FromForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryForms\FromForm.Designer.cs">
+      <DependentUpon>FromForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="QueryForms\OrderForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QueryForms\FromForm.resx">
+      <DependentUpon>FromForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QueryForms\OrderForm.resx">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </EmbeddedResource>
