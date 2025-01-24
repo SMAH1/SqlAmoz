@@ -30,7 +30,7 @@ namespace SqlAmoz
                 case "where": frm = new WhereForm(); break;
                 case "order": frm = new OrderForm(); break;
                 case "from": frm = new FromForm(); break;
-                //case "query": frm = new QueryForm(); break;
+                case "query": frm = new QueryForm(); break;
             }
 
             if (frm != null)

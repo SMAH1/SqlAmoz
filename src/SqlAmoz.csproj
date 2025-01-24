@@ -88,6 +88,12 @@
     <Compile Include="QueryForms\OrderForm.Designer.cs">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="QueryForms\QueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryForms\QueryForm.Designer.cs">
+      <DependentUpon>QueryForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="QueryForms\SelectForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QueryForms\OrderForm.resx">
       <DependentUpon>OrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryForms\QueryForm.resx">
+      <DependentUpon>QueryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QueryForms\SelectForm.resx">
       <DependentUpon>SelectForm.cs</DependentUpon>
