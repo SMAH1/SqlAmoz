@@ -110,6 +110,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Runner\01-Select.lnk" />
+    <None Include="Runner\02-Where.lnk" />
+    <None Include="Runner\03-OrderBy.lnk" />
+    <None Include="Runner\04-From.lnk" />
+    <None Include="Runner\05-Qurey.lnk" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -134,4 +139,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
   </Target>
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY $(ProjectDir)Runner\* $(TargetDir) /s /e /y</PostBuildEvent>
+  </PropertyGroup>
 </Project>
