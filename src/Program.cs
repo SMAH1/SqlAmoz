@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqlAmoz.DB;
+using System;
 using System.Windows.Forms;
 
 namespace SqlAmoz
@@ -13,6 +14,7 @@ namespace SqlAmoz
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Database.InitDatabase();
             Application.Run(new SelectForm());
         }
     }
