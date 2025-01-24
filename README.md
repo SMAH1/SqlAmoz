@@ -9,16 +9,16 @@ Use shortcuts to run different forms.
 # Screenshots
 
 ### Select
-![SelectFrom](.\images\01-Select.png)
+![SelectFrom](images/01-Select.png)
 
 ### Where
-![WhereFrom](.\images\02-Where.png)
+![WhereFrom](images/02-Where.png)
 
 ### Order by
-![OrderFrom](.\images\03-Order.png)
+![OrderFrom](images/03-Order.png)
 
 ### From
-![FromFrom](.\images\04-From.png)
+![FromFrom](images/04-From.png)
 
 ### Query
-![QueryFrom](.\images\05-Query.png)
+![QueryFrom](images/05-Query.png)
