@@ -1,4 +1,5 @@
 ﻿using SqlAmoz.DB;
+using SqlAmoz.QueryForms;
 using System;
 using System.Windows.Forms;
 

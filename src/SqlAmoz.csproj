@@ -76,10 +76,10 @@
     <Compile Include="DB\WaitForm.Designer.cs">
       <DependentUpon>WaitForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectForm.cs">
+    <Compile Include="QueryForms\SelectForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectForm.Designer.cs">
+    <Compile Include="QueryForms\SelectForm.Designer.cs">
       <DependentUpon>SelectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -97,6 +97,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QueryForms\SelectForm.resx">
+      <DependentUpon>SelectForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
